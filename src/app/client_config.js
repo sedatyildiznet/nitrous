@@ -1,17 +1,17 @@
 import { fromJSOrdered } from './utils/immutable';
 
 // sometimes it's impossible to use html tags to style coin name, hence usage of _UPPERCASE modifier
-export const APP_NAME = 'WeedCash';
+export const APP_NAME = 'Setadabase';
 // sometimes APP_NAME is written in non-latin characters, but they are needed for technical purposes
 // ie. "Голос" > "Golos"
-export const APP_NAME_LATIN = 'WeedCash';
-export const APP_NAME_UPPERCASE = 'WEEDCASH';
-export const APP_ICON = 'weedcash';
+export const APP_NAME_LATIN = 'Setadabase;
+export const APP_NAME_UPPERCASE = 'SEDATABASE';
+export const APP_ICON = 'SDB';
 
 // FIXME figure out best way to do this on both client and server from env
 // vars. client should read $STM_Config, server should read config package.
-export const APP_URL = 'https://www.weedcash.network';
-export const APP_DOMAIN = 'www.weedcash.network';
+export const APP_URL = 'https://sedatabase.herokuapp.com';
+export const APP_DOMAIN = 'sedatabase.herokuapp.com';
 // max num of tags. if unset, default is 10. This is due to previous hardcoded number.
 export const APP_MAX_TAG = 10;
 export const SCOT_TAG = 'weedcash';
@@ -27,7 +27,7 @@ export const LIQUID_TOKEN_UPPERCASE = 'FOODIE';
 // used as backup
 export const SCOT_DENOM = 100000000;
 export const VOTE_WEIGHT_DROPDOWN_THRESHOLD = 1;
-export const VESTING_TOKEN = 'WEED POWER';
+export const VESTING_TOKEN = 'SEDATABASE POWER';
 export const INTERLEAVE_PROMOTED = true;
 
 export const HIVE_SIGNER_APP = 'ewd';
